@@ -4,7 +4,7 @@ print(frase[5:]) # exemplo de fatiamento
 print(len(frase)) # conta os caracteres
 print(frase.count('o',0,13)) # conta quantos 'o' tem na frase usando fatiamento
 print(frase.find('deo')) # encontra a posição do 'deo'
-print('Curso' in frase) # indica se a palavra estra na frase
+print('Curso' in frase) # indica se a palavra esta na frase
 
 print( frase.replace('python' , 'android') ) # substitui a palavra pra outra
 print(frase.upper()) # frase toda maiuscula
