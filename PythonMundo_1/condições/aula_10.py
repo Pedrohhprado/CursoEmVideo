@@ -1,4 +1,4 @@
-### Condição
+### Condição simples
 tempo = int(input('quanto anos tem seu carro? '))
 
 if tempo <=3:
