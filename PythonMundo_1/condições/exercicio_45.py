@@ -1,4 +1,5 @@
 import random
+from time import sleep
 
 
 print('escolha entre: pedra, papel e tesoura')
@@ -9,6 +10,12 @@ print('3- tesoura')
 escolha = int(input())
 escolha_bot = random.randrange(1, 4)
 escolhas=['', 'Pedra', 'papel', 'tesoura']
+print('JO')
+sleep(1)
+print('KEN')
+sleep(1)
+print('PO!!!')
+sleep(1)
 
 if escolha == escolha_bot:
     print('Empatou, os dois escolheram {}'.format(escolhas[escolha]))
