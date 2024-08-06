@@ -20,3 +20,4 @@ while opcao in 'sS':
 
 print('Você digitou {} numeros e a media foi {:.2f}'.format(cont, soma/cont))
 print('O maior numero digitado foi {} e o menor foi {}'.format(maior, menor))
+
